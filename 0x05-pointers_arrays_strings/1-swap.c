@@ -1,12 +1,18 @@
-#include "main.h"
 /**
-*  reset_to_98 - takes the pointer and updates the value
-*  @n: int to check
-*  Owned By Achieng/Mary
-*  Return: 0 is success
+ * swap_int - swaps the values of two integers
+ *		using two input parameters
+ *
+ * @a: input parameter 1
+ * @b: input parameter 2
+ *
+ * Return: Nothing
 */
 
-void reset_to_98(int *n)
+void swap_int(int *a, int *b)
 {
-	*n = 98;
+	int temp;
+
+	temp = *a;
+	*a = *b;
+	*b = temp;
 }
