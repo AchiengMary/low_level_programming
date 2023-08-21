@@ -1,12 +1,23 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 /**
-*  reset_to_98 - takes the pointer and updates the value
-*  @n: int to check
-*  Owned By Achieng/Mary
-*  Return: 0 is success
-*/
-
-void reset_to_98(int *n)
+ * main - entry point generates a random password
+ *
+ * Return: the generated password
+ */
+int main(void)
 {
-	*n = 98;
+char c;
+int x;
+
+srand(time(0));
+while (x <= 2645)
+{
+c = rand() % 128;
+x += c;
+putchar(c);
+}
+putchar(2772 - x);
+return (0);
 }
