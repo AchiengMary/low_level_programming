@@ -2,6 +2,6 @@
 #define MAIN_H
 /*achieng*/
 
-char *arrays_allocation(unsigned int size, char c);
+char *arrays_allocation;
 
 #endif /*achieng*/
