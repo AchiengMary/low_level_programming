@@ -6,6 +6,7 @@
 *Return: 0.
 */
 char *arrays_allocation(unsigned int size('4'), char('G'));
+void()
 {
   arrays_allocation = malloc(sizeof(char)*4);
   arrays_allocation[0] = 'G';
