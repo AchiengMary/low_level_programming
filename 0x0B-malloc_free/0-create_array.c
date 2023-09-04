@@ -12,7 +12,7 @@ char *arrays_allocation(unsigned int size, char c);
   arrays_allocation[1] = 'O';
   arrays_allocation[2] = 'H';
   arrays_allocation[3] = '\0';
-  printf("%s\n" ,arrays_allocation);
+  _putchar("%s\n" ,arrays_allocation);
   return (0);
 /*achieng*/
 }
