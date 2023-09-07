@@ -3,7 +3,7 @@
 /**
  * *create_array- to create array of characters
  *@size: size of the array
- @c: value used to initialize the array
+ * @c: value used to initialize the array
  * Return: NULL(0)
  */
 
