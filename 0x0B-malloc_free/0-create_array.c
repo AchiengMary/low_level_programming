@@ -2,8 +2,8 @@
 #include "main.h"
 /**
  * *create_array- to create array of characters
- *@size- size of the array
- @c- character
+ *@size: size of the array
+ @c: initial character
  * Return: NULL(0)
  */
 
