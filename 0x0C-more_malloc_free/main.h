@@ -3,4 +3,6 @@
 
 void *malloc_checked(signed int b);
 
+#include <stdio.h>
+#include <limits.h>
 #endif /*achieng*/
