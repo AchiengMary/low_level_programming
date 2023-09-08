@@ -24,4 +24,5 @@ int *array_range(int min, int max)
   for (x = 0; min <= max; x++)
     arr_loc[x] = min++;
     return (arr_loc);
+  /*achieng*/
 }
