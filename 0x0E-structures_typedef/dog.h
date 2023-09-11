@@ -2,13 +2,13 @@
 #define DOG
 
 /**
-*struct dog - class of the dog
+* struct dog - defination of a new type, dog using struct
 *
-*@name: the dogs name
+* @name: the dogs name
 *
-*@age: the dogs age
+* @age: the dogs age
 *
-*@owner: the dogs owner
+* @owner: the dogs owner
 */
 
 struct dog
@@ -16,6 +16,6 @@ struct dog
   char *name;
   float age;
   char *owner;
-}
+};
 
-#endif/*DOG*/
+#endif
