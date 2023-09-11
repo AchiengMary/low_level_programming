@@ -5,7 +5,6 @@
 * free_dog - function that frees dogs
 *@d: points to the dog to be freed
 *
-*Return: void
 */
 void free_dog(dog_t *d)
 {
