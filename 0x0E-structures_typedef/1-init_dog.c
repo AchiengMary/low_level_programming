@@ -2,7 +2,6 @@
 
 /**
 *init_dog - initialize a variable of type dog
-*
 *@d: points to the adress of the structure
 *@name: points to the address of the name of the dog
 *@age: age of the dog
