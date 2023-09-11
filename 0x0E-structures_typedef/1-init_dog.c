@@ -4,9 +4,9 @@
 *init_dog - initialize a variable of type dog
 *
 *@d: points to the adress of the structure
-@name: points to the address of the name of the dog
-@age: age of the dog
-@owner: points to the owner of the dog
+*@name: points to the address of the name of the dog
+*@age: age of the dog
+*@owner: points to the owner of the dog
 *
 *Return: on success (void)
 */
