@@ -1,4 +1,4 @@
-#ifdef DOG
+#ifndef DOG
 #define DOG
 
 /**
