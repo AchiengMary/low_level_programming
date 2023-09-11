@@ -1,7 +1,8 @@
 #ifndef DOG
 #define DOG
 
-/**struct_dog - a new type defined dog
+/**
+*struct_dog - a new type defined dog
 *
 *@name: name of dog
 *@age: age of dog
