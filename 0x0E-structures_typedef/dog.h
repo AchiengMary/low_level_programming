@@ -2,13 +2,13 @@
 #define DOG
 
 /**
-* struct dog - defination of a new type, dog using struct
+* struct dog - dog class
 *
-* @name: the dogs name
+* @name: name of dog
 *
-* @age: the dogs age
+* @age: age of dog
 *
-* @owner: the dogs owner
+* @owner: owner of dog
 */
 
 struct dog
