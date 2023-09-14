@@ -3,10 +3,10 @@
 #include <string.h>
 
 /**
-  * get_op_func - pointer to a function
-  * @s: character
+  * get_op_func - ...
+  * @s: ...
   *
-  * Return:0
+  * Return: ...
   */
 int (*get_op_func(char *s))(int, int)
 {
