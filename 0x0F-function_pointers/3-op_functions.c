@@ -3,11 +3,11 @@
 #include <stdio.h>
 
 /**
-  * op_add - function
-  * @a: number to be added
-  * @b: numbre to be added
+  * op_add - ...
+  * @a: ...
+  * @b: ...
   *
-  * Return: sum of the numbers
+  * Return: ...
   */
 int op_add(int a, int b)
 {
@@ -15,11 +15,11 @@ int op_add(int a, int b)
 }
 
 /**
-  * op_sub - function
-  * @a: numer to minus
-  * @b: number to minus
+  * op_sub - ...
+  * @a: ...
+  * @b: ...
   *
-  * Return: (a-b)
+  * Return: ...
   */
 int op_sub(int a, int b)
 {
@@ -27,11 +27,11 @@ int op_sub(int a, int b)
 }
 
 /**
-  * op_mul - function that multiplies
-  * @a: number to multiply
-  * @b: number to multiply
+  * op_mul - ...
+  * @a: ...
+  * @b: ...
   *
-  * Return: multiplication answer
+  * Return: ...
   */
 int op_mul(int a, int b)
 {
@@ -39,11 +39,11 @@ int op_mul(int a, int b)
 }
 
 /**
-  * op_div - function to divide
-  * @a: number2
-  * @b: number1
+  * op_div - ...
+  * @a: ...
+  * @b: ...
   *
-  * Return: answer
+  * Return: ...
   */
 int op_div(int a, int b)
 {
@@ -57,11 +57,11 @@ int op_div(int a, int b)
 }
 
 /**
-  * op_mod - function 
-  * @a: number2
-  * @b: number1
+  * op_mod - ...
+  * @a: ...
+  * @b: ...
   *
-  * Return: answer
+  * Return: ...
   */
 int op_mod(int a, int b)
 {
