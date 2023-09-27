@@ -1,2 +1,1 @@
-#!/bin/bash
-Readme for files in tatic libaray
+Readme for files in static libaray
