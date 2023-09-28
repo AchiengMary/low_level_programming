@@ -10,20 +10,21 @@
  * Return: -1 if error occurs
  */
 
+void exit(int status);
+
 int get_bit(unsigned long int n, unsigned int index)
 {
+	unsigned long int mask;
 	if (index >= sizeof(unsigned long int) * 8)
 	{
-		fprintf(stderr, "Error: Index out of range.\n");
-		exit(EXIT_FAILURE);
+		char error_message[] = "Error: Index out of range.\n";
+		int i;
+		for (i = 0; error_message[i] != '\0'; i++)
+		{
+			putchar(error_message[i]);
+		}
+		return -1;
 	}
-	unsigned long int mask = 1UL << index;
-	if ((n & mask) == 0)
-	{
-		return 0;
-	}
-	else
-	{
-		return 1;
-	}
+	mask = 1UL << index;
+	return (n & mask) ? 1 : 0;
 }
